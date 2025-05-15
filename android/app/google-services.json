@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "316749225646",
+    "project_id": "creativa-menofya",
+    "storage_bucket": "creativa-menofya.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316749225646:android:07d4c18fd55dbad7c2973f",
+        "android_client_info": {
+          "package_name": "com.example.untitled3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeJKX6uPTPfYcCCs_BRcIzTqrw7HN1gIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
