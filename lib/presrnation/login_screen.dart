@@ -6,6 +6,12 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+
+
+
+
+
     return Scaffold(
       backgroundColor: Colors.black,
       body: Padding(
@@ -41,9 +47,9 @@ class LoginScreen extends StatelessWidget {
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 14,
-              
+
               ),
-              
+
               decoration: InputDecoration(
                 hintText: "example@gmail.com",
                 filled: true,
