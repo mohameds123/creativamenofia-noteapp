@@ -86,11 +86,16 @@ class _HomeScreenState extends State<HomeScreen> {
                     if (state is GetNotesLoadingState){
                       return Center(child: Lottie.asset("assets/animation/loading.json"));
                     }else if (state is GetNotesSuccessState){
-                      return ListView.builder(
-                        itemCount: 15,
-                        itemBuilder: (context, index) {
-                          return NoteWidget();
-                        },
+                      return SizedBox(
+                        height: 500,
+                        child: ListView.builder(
+                          itemCount: state.notesData.length,
+                          itemBuilder: (context, index) {
+                            return NoteWidget(
+                              noteModel: state.notesData[index],
+                            );
+                          },
+                        ),
                       );
                     }else if (state is GetNotesErrorState){
                       return Center(child: Text(state.em));
